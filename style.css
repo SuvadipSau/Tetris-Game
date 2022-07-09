@@ -1,0 +1,148 @@
+body {
+    background-image: url("img/james-lee-G8gbh8N2Lsc-unsplash.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 20px;
+}
+#gameArea {
+    display: flex;
+    flex-direction: left;
+}
+
+.gameTitle {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.title {
+    color: rgb(31, 228, 202);
+    font-size: 90px;
+    font-weight: 800;
+}
+
+.createrMessage {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.scoreCard {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    width: 250px;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: aliceblue;
+}
+
+.mini-grid {
+    margin-left: 90px;
+}
+.grid {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border-radius: 4px;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+} 
+
+.upNext {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.upNext div {
+    width: 20px;
+    height: 20px;
+}
+
+.tetromino {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.red {
+    background-color: red;
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.green {
+    background-color: green;
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.blue {
+    background-color: blue;
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.brown {
+    background-color: brown;
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.yellow {
+    background-color: yellow;
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.purple {
+    background-color: purple;
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+.orange {
+    background-color: orange;
+    border-radius: 2px;
+    border-width: 5px;
+    border-style: solid;
+    border-left-color: rgba(255, 255, 255, 0.20);
+    border-top-color: rgba(255, 255, 255, 0.33);
+    border-right-color: rgba(0, 0, 0, 0.15);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
